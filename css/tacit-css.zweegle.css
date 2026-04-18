@@ -30,3 +30,7 @@ blockquote .author{
 	font-size:0.84375rem;
 	margin-bottom:0
 }
+mark{
+	background:#ffc;
+	padding:0
+}
