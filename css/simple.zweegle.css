@@ -5,3 +5,36 @@ cite {
 h3 {
     border-bottom:1px solid rgb(216.75,216.75,216.75);
 }
+.blog-card {
+    background: var(--accent-bg);
+    border: var(--border-width) solid var(--border);
+    border-radius: var(--standard-border-radius);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.blog-card h1{
+    border-bottom:1px solid rgb(216.75,216.75,216.75);
+    margin-bottom:0rem;
+    margin-top:0.8rem;
+}
+.blog-card p{
+    margin-top:1rem;
+    margin-bottom:0rem;
+}
+.blog-card .blog-date{
+    margin-top:1rem;
+    margin-bottom:0rem;
+    font-size: 0.9rem;
+}
+a p, h1 {
+    color: var(--text);
+}
+a {
+        text-decoration: none;
+}
+.blog-card:hover {
+    background: var(--bg);
+    border-color: var(--accent);
+    color: var(--accent);
+    cursor: pointer;
+}
