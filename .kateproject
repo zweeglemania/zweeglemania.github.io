@@ -1,0 +1,11 @@
+{
+    "name": "zweeglemania.github.io",
+    "files": [
+        {
+            "git": 1
+        }
+    ],
+    "formatting": {
+        "formatOnSave": true
+    }
+}
