@@ -5,6 +5,9 @@ cite {
 h3 {
   border-bottom: 1px solid rgb(216.75, 216.75, 216.75);
 }
+
+/*BLOG CSS*/
+
 .blog-card {
   background: var(--accent-bg);
   border: var(--border-width) solid var(--border);
@@ -26,11 +29,11 @@ h3 {
   margin-bottom: 0rem;
   font-size: 0.9rem;
 }
-a p,
+.blog-card a p,
 h1 {
   color: var(--text);
 }
-a {
+.blog-card a {
   text-decoration: none;
 }
 .blog-card:hover {
@@ -38,4 +41,61 @@ a {
   border-color: var(--accent);
   color: var(--accent);
   cursor: pointer;
+}
+
+/*TWITTER POST CSS*/
+
+.twitter-card {
+  background: var(--accent-bg);
+  border: var(--border-width) solid var(--border);
+  border-radius: var(--standard-border-radius);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.twitter-card .profile-picture {
+  border-radius: 50%;
+}
+.twitter-card .picture {
+  margin-top: 1rem;
+}
+.twitter-card a {
+  text-decoration: none;
+}
+.twitter-card a p, span, div,
+h1 {
+  color: var(--text);
+}
+.twitter-card:hover {
+  background: var(--bg);
+  border-color: var(--accent);
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  height: auto;
+  line-height: auto;
+}
+.twitter-card span {
+  margin-top: 0.6rem;
+  display: flex;
+  font-size: 1.15rem;
+}
+.name {
+  display: flex;
+  margin-left: 0.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.handle {
+  display: flex;
+  margin-left: 0.6rem;
+  font-size: 1rem;
+}
+.date {
+  margin-top: 0.6rem;
+  display: flex;
+  font-size: 0.9rem;
 }
