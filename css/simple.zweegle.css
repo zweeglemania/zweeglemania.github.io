@@ -18,7 +18,21 @@ div.notice h4 {
   margin: 5px 20px 0px 0px;
 }
 
-/*BLOG CSS*/
+/*BLOG PAGE CSS*/
+
+.title {
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.author {
+  color: #999;
+  font-size: 0.9rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+/*BLOG CARD CSS*/
 
 .blog-card {
   background: var(--accent-bg);
@@ -55,7 +69,7 @@ h1 {
   cursor: pointer;
 }
 
-/*TWITTER POST CSS*/
+/*SOCIAL MEDIA POST CSS*/
 
 .twitter-card {
   background: var(--accent-bg);
@@ -85,7 +99,6 @@ h1 {
   color: var(--accent);
   cursor: pointer;
 }
-
 .profile-info {
   display: flex;
   align-items: center;
